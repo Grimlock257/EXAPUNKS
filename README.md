@@ -22,6 +22,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [9: SFCTA Highway Sign #4902 (Remote Access Interface)](solutions/09-sfcta-highway-sign-4902-remote-access-interface)       | 166    | 10   | 1        |
 | [10: Unknown Network 1 (Unknown Context)](solutions/10-unknown-network-1-unknown-context)                                   | 30     | 21   | 27       |
 | [11: UC Berkeley (EECS Department)](solutions/11-uc-berkeley-eecs-department)                                               | 428    | 33   | 7        |
+| [12: Workhouse (Work Management System)](solutions/12-workhouse-work-management-system)                                     | 544    | 49   | 2        |
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
