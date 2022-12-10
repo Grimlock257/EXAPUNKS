@@ -16,6 +16,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [3: Trash World News (Tutorial 3)](solutions/03-trash-world-news-tutorial-3)       | 11     | 14   | 4        |
 | [4: Trash World News (Tutorial 4)](solutions/04-trash-world-news-tutorial-4)       | 407    | 11   | 2        |
 | [5: Euclid's Pizza (Order System)](solutions/05-euclids-pizza-order-system)        | 13     | 16   | 1        |
+| [6: Mitsuzen HDI-10 (Left Arm)](solutions/06-mitsuzen-hdi-10-left-arm)             | 241    | 23   | 6        |
 
 | Battle                                                                            | Wins | Draws | Losses | Rating |
 |-----------------------------------------------------------------------------------|------|-------|--------|--------|
