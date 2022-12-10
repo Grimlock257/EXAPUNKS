@@ -9,16 +9,17 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 ## Solutions
 
 <!-- EXA_START -->
-| Level                                                                                | Cycles | Size | Activity |
-|--------------------------------------------------------------------------------------|--------|------|----------|
-| [1: Trash World News (Tutorial 1)](solutions/01-trash-world-news-tutorial-1)         | 4      | 3    | 2        |
-| [2: Trash World News (Tutorial 2)](solutions/02-trash-world-news-tutorial-2)         | 9      | 9    | 2        |
-| [3: Trash World News (Tutorial 3)](solutions/03-trash-world-news-tutorial-3)         | 11     | 14   | 4        |
-| [4: Trash World News (Tutorial 4)](solutions/04-trash-world-news-tutorial-4)         | 407    | 11   | 2        |
-| [5: Euclid's Pizza (Order System)](solutions/05-euclids-pizza-order-system)          | 13     | 16   | 1        |
-| [6: Mitsuzen HDI-10 (Left Arm)](solutions/06-mitsuzen-hdi-10-left-arm)               | 241    | 23   | 6        |
-| [7: Last Stop Snaxnet (Factory 11)](solutions/07-last-stop-snaxnet-factory-11)       | 31     | 11   | 2        |
+| Level                                                                                            | Cycles | Size | Activity |
+|--------------------------------------------------------------------------------------------------|--------|------|----------|
+| [1: Trash World News (Tutorial 1)](solutions/01-trash-world-news-tutorial-1)                     | 4      | 3    | 2        |
+| [2: Trash World News (Tutorial 2)](solutions/02-trash-world-news-tutorial-2)                     | 9      | 9    | 2        |
+| [3: Trash World News (Tutorial 3)](solutions/03-trash-world-news-tutorial-3)                     | 11     | 14   | 4        |
+| [4: Trash World News (Tutorial 4)](solutions/04-trash-world-news-tutorial-4)                     | 407    | 11   | 2        |
+| [5: Euclid's Pizza (Order System)](solutions/05-euclids-pizza-order-system)                      | 13     | 16   | 1        |
+| [6: Mitsuzen HDI-10 (Left Arm)](solutions/06-mitsuzen-hdi-10-left-arm)                           | 241    | 23   | 6        |
+| [7: Last Stop Snaxnet (Factory 11)](solutions/07-last-stop-snaxnet-factory-11)                   | 31     | 11   | 2        |
+| [8: Zebros Copies (Point-Of-Sale System)](solutions/08-zebros-copies-point-of-sale-system)       | 110    | 29   | 3        |
 
-| Battle                                                                              | Wins | Draws | Losses | Rating |
-|-------------------------------------------------------------------------------------|------|-------|--------|--------|
+| Battle                                                                                          | Wins | Draws | Losses | Rating |
+|-------------------------------------------------------------------------------------------------|------|-------|--------|--------|
 <!-- EXA_END -->
