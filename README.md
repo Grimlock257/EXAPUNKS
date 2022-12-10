@@ -23,6 +23,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [10: Unknown Network 1 (Unknown Context)](solutions/10-unknown-network-1-unknown-context)                                   | 30     | 21   | 27       |
 | [11: UC Berkeley (EECS Department)](solutions/11-uc-berkeley-eecs-department)                                               | 428    | 33   | 7        |
 | [12: Workhouse (Work Management System)](solutions/12-workhouse-work-management-system)                                     | 544    | 49   | 2        |
+| [13: Equity First Bank (San Fancisco)](solutions/13-equity-first-bank-san-fancisco)                                         | 4008   | 36   | 10       |
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
