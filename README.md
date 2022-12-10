@@ -12,6 +12,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | Level                                                                              | Cycles | Size | Activity |
 |------------------------------------------------------------------------------------|--------|------|----------|
 | [1: Trash World News (Tutorial 1)](solutions/01-trash-world-news-tutorial-1)       | 4      | 3    | 2        |
+| [2: Trash World News (Tutorial 2)](solutions/02-trash-world-news-tutorial-2)       | 9      | 9    | 2        |
 
 | Battle                                                                            | Wins | Draws | Losses | Rating |
 |-----------------------------------------------------------------------------------|------|-------|--------|--------|
