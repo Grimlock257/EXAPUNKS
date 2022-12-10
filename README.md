@@ -9,9 +9,10 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 ## Solutions
 
 <!-- EXA_START -->
-| Level| Cycles | Size | Activity |
-|------|--------|------|----------|
+| Level                                                                              | Cycles | Size | Activity |
+|------------------------------------------------------------------------------------|--------|------|----------|
+| [1: Trash World News (Tutorial 1)](solutions/01-trash-world-news-tutorial-1)       | 4      | 3    | 2        |
 
-| Battle| Wins | Draws | Losses | Rating |
-|-----|------|-------|--------|--------|
+| Battle                                                                            | Wins | Draws | Losses | Rating |
+|-----------------------------------------------------------------------------------|------|-------|--------|--------|
 <!-- EXA_END -->
