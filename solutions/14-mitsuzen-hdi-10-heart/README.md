@@ -1,6 +1,6 @@
 # 14: Mitsuzen HDI-10 (Heart)
 
-<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (158, 31, 29, 2022-12-11-11-34-35).gif" /></div>
+<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (158, 30, 29, 2022-12-11-11-54-00).gif" /></div>
 
 ## Instructions
 > Read a value from the nerve connected to your central nervous system (CNS) and make your heart beat by writing a sequence of values to your sinoatrial (SA-N) and atrioventricular (AV-N) nodes as indicated in the HDI-10 I/O log when holding the "SHOW GOAL" button. The length of each sequence of values should be equal to the value from the CNS divided by -10. Repeat _ad infinitum_.
@@ -20,7 +20,6 @@ LINK 800
 MARK READ_LOOP
 DIVI #NERV -10 X
 
-
 ; DUPE
 REPL SA_N
 REPL AV_N
@@ -39,6 +38,9 @@ LINK 1
 LINK 1
 
 COPY 40 #NERV
+COPY -70 #NERV
+
+SUBI X 2 X
 
 JUMP WRITE_LOOP
 
@@ -49,24 +51,19 @@ LINK 3
 COPY -70 #NERV
 COPY 40 #NERV
 
-SUBI X 1 X
+SUBI X 2 X
 
 JUMP WRITE_LOOP
 
 ; WRITE LOOP
 MARK WRITE_LOOP
+COPY -70 #NERV
 SUBI X 1 X
 TEST X = 0
-TJMP DIE
-COPY -70 #NERV
 FJMP WRITE_LOOP
-
-; DEATH
-MARK DIE
-HALT
 ```
 
 #### Results
 | Cycles | Size | Activity |
 |--------|------|----------|
-| 158    | 31   | 29       |
+| 158    | 30   | 29       |
