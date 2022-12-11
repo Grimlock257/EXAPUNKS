@@ -29,6 +29,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [16: TEC Redshift (Development Kit)](solutions/16-tec-redshift-development-kit)                                             | 7938   | 31   | 4        |
 | [17: Digital Library Project (Patron Access System)](solutions/17-digital-library-project-patron-access-system)             | 379    | 35   | 70       |
 | [18: TEC EXA-Blaster Modem (Radio Stations)](solutions/18-tec-exa-blaster-modem-radio-stations)                             | 652    | 43   | 11       |
+| [19: Emerson's Guide (Streetsmarts GIS Database)](solutions/19-emersons-guide-streetsmarts-gis-database)                    | 53     | 43   | 6        |
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
