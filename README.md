@@ -29,4 +29,5 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
+| [1: KGOG-TV (Programming Hub)](battles/01-kgog-tv-programming-hub)                                                         | 100  | 0     | 0      | S+     |
 <!-- EXA_END -->
