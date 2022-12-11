@@ -1,6 +1,6 @@
 # 2: Valhalla (=Plastered)
 
-<div align="center"><img src="EXAPUNKS - Valhalla (=plastered, 2022-12-11-21-28-43).gif" /></div>
+<div align="center"><img src="EXAPUNKS - Valhalla (=plastered, 2022-12-11-21-33-23).gif" /></div>
 
 ## Instructions
 > To win this battle you must control a majority of the hosts for as long as possible. 
@@ -21,20 +21,23 @@
 LINK 800
 LINK -1
 
-; WAIT FOR ENEMY
-@REP 16
-NOOP
-@END
-KILL
+; INITIAL MOVEMENTS
+COPY 2 X
 
-; FOWARD LOOP
-MARK START_FORWARD
-COPY 9 X
-MARK FORWARD_LOOP
+; MOVEMENT LOOP
+MARK LOOP
 COPY 1 #CTRL
 LINK 800
 SUBI X 1 X
 TEST X = 0
-FJMP FORWARD_LOOP
+FJMP LOOP
+
+; STOP AND KILL
+NOOP
+KILL
+
+; RESUME MOVEMENT LOOP
+COPY 6 X
+JUMP LOOP
 ```
 
