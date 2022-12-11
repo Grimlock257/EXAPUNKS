@@ -27,6 +27,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [14: Mitsuzen HDI-10 (Heart)](solutions/14-mitsuzen-hdi-10-heart)                                                           | 158    | 30   | 29       |
 | [15: Trash World News (Unknown Context)](solutions/15-trash-world-news-unknown-context)                                     | 569    | 29   | 4        |
 | [16: TEC Redshift (Development Kit)](solutions/16-tec-redshift-development-kit)                                             | 7938   | 31   | 4        |
+| [17: Digital Library Project (Patron Access System)](solutions/17-digital-library-project-patron-access-system)             | 379    | 35   | 70       |
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
