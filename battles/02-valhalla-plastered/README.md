@@ -1,6 +1,6 @@
 # 2: Valhalla (=Plastered)
 
-<div align="center"><img src="EXAPUNKS - Valhalla (=plastered, 2022-12-11-21-27-01).gif" /></div>
+<div align="center"><img src="EXAPUNKS - Valhalla (=plastered, 2022-12-11-21-28-43).gif" /></div>
 
 ## Instructions
 > To win this battle you must control a majority of the hosts for as long as possible. 
@@ -36,19 +36,5 @@ LINK 800
 SUBI X 1 X
 TEST X = 0
 FJMP FORWARD_LOOP
-TJMP START_BACKWARD
-
-; BACKWARD LOOP
-MARK START_BACKWARD
-COPY 9 X
-MARK BACKWARD_LOOP
-COPY 1 #CTRL
-LINK -1
-SUBI X 1 X
-TEST X = 0
-FJMP BACKWARD_LOOP
-TJMP START_FORWARD
-
-
 ```
 
