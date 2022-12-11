@@ -24,6 +24,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [11: UC Berkeley (EECS Department)](solutions/11-uc-berkeley-eecs-department)                                               | 428    | 33   | 7        |
 | [12: Workhouse (Work Management System)](solutions/12-workhouse-work-management-system)                                     | 544    | 49   | 2        |
 | [13: Equity First Bank (San Fancisco)](solutions/13-equity-first-bank-san-fancisco)                                         | 3027   | 14   | 10       |
+| [14: Mitsuzen HDI-10 (Heart)](solutions/14-mitsuzen-hdi-10-heart)                                                           | 158    | 31   | 29       |
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
