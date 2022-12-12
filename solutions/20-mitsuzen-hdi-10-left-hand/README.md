@@ -1,6 +1,6 @@
 # 20: Mitsuzen HDI-10 (Left Hand)
 
-<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (105, 71, 12, 2022-12-12-20-32-42).gif" /></div>
+<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (106, 70, 9, 2022-12-12-20-55-07).gif" /></div>
 
 ## Instructions
 > There are three nerve signals that need to be relayed: muscle control (M), which runs from your central nervous system (CNS) to your hand (HND), and heat (H) and pressure (P), which run the other direction.
@@ -15,20 +15,37 @@
 
 ### [XA](XA.exa) (global)
 ```asm
-; CNS
 LINK 800
+
+REPL M_CNS
+JUMP M_HND
+
+;;; CNS SIDE ;;;
+
+; M_CNS
+MARK M_CNS
+NOOP
 LINK -3
 LINK -3
 
 REPL H_CNS
-REPL P_CNS
+NOOP
+NOOP
+NOOP
 
-JUMP M_CNS
+MARK M_CNS_LOOP
+NOOP
+NOOP
+NOOP
+NOOP
+COPY #NERV M
+JUMP M_CNS_LOOP
 
 ; H_CNS
 MARK H_CNS
 LINK -3
-NOOP
+
+REPL P_CNS
 
 MARK H_CNS_LOOP
 COPY M #NERV
@@ -41,7 +58,6 @@ JUMP H_CNS_LOOP
 ; P_CNS
 MARK P_CNS
 LINK -3
-LINK -3
 
 MARK P_CNS_LOOP
 NOOP
@@ -51,36 +67,31 @@ NOOP
 NOOP
 JUMP P_CNS_LOOP
 
-; M_CNS
-MARK M_CNS
-NOOP
+;;; HAND SIDE ;;;
 
-MARK M_CNS_LOOP
-NOOP
-NOOP
-NOOP
-NOOP
-COPY #NERV M
-JUMP M_CNS_LOOP
-```
-
-### [XB](XB.exa) (global)
-```asm
-; HND
-LINK 800
-NOOP ; WAIT FOR XA
+; M_HND
+MARK M_HND
 LINK 3
 LINK 3
 
 REPL H_HND
-REPL P_HND
+NOOP
+NOOP
+NOOP
 
-JUMP M_HND
+MARK M_HND_LOOP
+NOOP
+NOOP
+NOOP
+NOOP
+COPY M #NERV
+JUMP M_HND_LOOP
 
 ; H_HND
 MARK H_HND
 LINK 3
-NOOP
+
+REPL P_HND
 
 MARK H_HND_LOOP
 COPY #NERV M
@@ -93,7 +104,6 @@ JUMP H_HND_LOOP
 ; P_HND
 MARK P_HND
 LINK 3
-LINK 3
 
 MARK P_HND_LOOP
 NOOP
@@ -102,21 +112,9 @@ COPY #NERV M
 NOOP
 NOOP
 JUMP P_HND_LOOP
-
-; M_HND
-MARK M_HND
-NOOP
-
-MARK M_HND_LOOP
-NOOP
-NOOP
-NOOP
-NOOP
-COPY M #NERV
-JUMP M_HND_LOOP
 ```
 
 #### Results
 | Cycles | Size | Activity |
 |--------|------|----------|
-| 105    | 71   | 12       |
+| 106    | 70   | 9        |
