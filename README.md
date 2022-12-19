@@ -31,6 +31,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 | [18: TEC EXA-Blaster Modem (Radio Stations)](solutions/18-tec-exa-blaster-modem-radio-stations)                             | 652    | 43   | 11       |
 | [19: Emerson's Guide (Streetsmarts GIS Database)](solutions/19-emersons-guide-streetsmarts-gis-database)                    | 53     | 43   | 6        |
 | [20: Mitsuzen HDI-10 (Left Hand)](solutions/20-mitsuzen-hdi-10-left-hand)                                                   | 106    | 70   | 9        |
+| [21: Sawayama Wonderdisc (Drive Controller)](solutions/21-sawayama-wonderdisc-drive-controller)                             | 8719   | 53   | 122      |
 
 | Battle                                                                                                                     | Wins | Draws | Losses | Rating |
 |----------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
